@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Mobile Dev App</string>
+    <string name="done">Done</string>
+    <string-array name="team">
+        <item>Germany</item>
+        <item>Spain</item>
+        <item>Brazil</item>
+        <item>Argentina</item>
+        <item>English</item>
+    </string-array>
+    <string name="title_activity_week1_simple_app">Week1_simple_app</string>
+</resources>

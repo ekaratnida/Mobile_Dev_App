@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pok.lab3_v2">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Week3_lifecycle">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Week3_Activity2" />
+        <activity android:name=".Week5_Preference" />
+        <activity android:name=".FireBaseActivity" />
+        <activity android:name=".Week7_File" />
+        <activity android:name=".Week8_DBView" />
+        <activity android:name=".DB_MainApp" />
+        <activity android:name=".Week8_DBAdd" />
+        <activity android:name=".Week10_Graphics" />
+        <activity android:name=".Week2_UI" />
+        <activity android:name=".Week1_simple_app" />
+        <activity android:name=".Week2_RelativeLayout" />
+    </application>
+
+</manifest>

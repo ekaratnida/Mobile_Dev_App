@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TNI_Lab2</string>
+    <string-array name="team">
+        <item>Germany</item>
+        <item>Japan</item>
+        <item>Thailand</item>
+        <item>USA</item>
+    </string-array>
+</resources>

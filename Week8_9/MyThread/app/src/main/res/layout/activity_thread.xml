@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pok.mythread.MainActivity">
+
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="214dp"
+        android:layout_height="wrap_content"
+        android:layout_x="55dp"
+        android:layout_y="77dp"
+        android:text="TextView"
+        android:textColor="@android:color/background_dark"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="33dp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="284dp"
+        android:layout_y="76dp"
+        android:text="Button"
+        tools:layout_editor_absoluteX="207dp"
+        tools:layout_editor_absoluteY="5dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="4dp"
+        android:layout_y="335dp"
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="10dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="221dp"
+        android:layout_height="173dp"
+        android:layout_x="52dp"
+        android:layout_y="142dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="200dp"
+        android:layout_height="178dp"
+        android:layout_x="61dp"
+        android:layout_y="363dp"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="502dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:layout_x="3dp"
+        android:layout_y="556dp"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="622dp" />
+
+    <SeekBar
+        android:id="@+id/seekBar2"
+        android:layout_width="324dp"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="0dp"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="26dp" />
+
+</AbsoluteLayout>

@@ -1,0 +1,79 @@
+Review week 3 (20 mins)
+
+1. Create a new Android app (Week4) with two activities
+
+- First activity has
+	Two EditTexts for inputing 2 numbers, 
+	One button (summation) --> Click this button the app will go to Activity 2.
+
+- Second activity shows the calculated
+	One TextView shows "result ="
+
+- Example Week4, page 10
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+2. Find the door's name (Wat Pha-kaew)
+	2.1 Find Latitude and Longtitude
+	2.2 On page 29, cbp=a,b,c,d,e
+			b = 0 - 360 degree (0 is North, 90 is East)
+			d = Zoom in
+			e = -90 (Up) ~ 90(Down)
+
+Exercise
+https://goo.gl/ivN2B1  
+HW1
+
+
+Example https://goo.gl/C1Ydzm
+
+Activity1-->
+	AbsoluteLayout
+	- EditText num1, num2, answer.
+	- Button (Sum).
+	- TextView result.
+	Function
+	- startActivityForResult
+	- onActivityResult
+
+Activity2-->
+	- No User Interface
+	Sum num1 and num2 and compare the result with answer then	
+	return "True" or "False" to Activity 1
+	Function
+	- setResult
+	- finish
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Note
+- Add Googlemap cbp details https://developers.google.com/maps/documentation/urls/android-intents
+https://developer.android.com/guide/appendix/g-app-intents.html
+
